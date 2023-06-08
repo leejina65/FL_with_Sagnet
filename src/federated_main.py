@@ -346,6 +346,7 @@ if __name__ == '__main__':
         print('Train Accuracy: {:.2f}% \n'.format(100*acc[0])) #art,sket,photo
 
     ##################################################### 0608
+
     # val_acc save
     file_name = '../save/val_acc/{}_{}_{}_C[{}]_iid[{}]_E[{}]_B[{}].npy'. \
         format(args.dataset, args.model, args.epochs, args.frac, args.iid,
